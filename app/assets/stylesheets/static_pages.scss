@@ -1,3 +1,180 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* Global settings*/
+p
+{
+  font-family: arial;
+  font-size:13px;
+  color:rgb(64,64,64);
+}
+
+a
+{
+  text-decoration:none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+body
+{
+  margin:none;
+}
+
+/*Elements of the header*/
+header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+
+header #topright
+{
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  width:280px;
+  height: 50px;
+}
+
+
+header a
+{
+  color:black;
+}
+
+
+header img
+{
+  width:25px;
+  height:25px;
+}
+
+#connexion a
+{
+  background-color: rgb(84,132,230);
+  padding:10px;
+  border-radius: 3px;
+  height:30px;
+  width:90px;
+  color:white;
+  font-weight: bold;
+}
+
+#connexion a:hover
+{
+  text-decoration: none;
+  box-shadow: 0px 1px 0.3px rgba(84,132,230,0.5);
+}
+
+
+/* Elements in the center of the page*/
+section
+{
+  margin: auto;
+  width: 150px;
+  height:600px;
+/*  border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+section img
+{
+  width:280px;
+}
+
+form input
+{
+  width: 580px;
+  height:42px;
+  text-align: left;
+  border: 0.1px solid rgb(228,228,228);
+  box-shadow: 0px 4px 4px rgb(228,228,228);
+  font-size: 30px;
+}
+
+form #buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 290px;
+  /*border: 0.3px solid red;*/
+}
+
+form .button
+{
+  width:140px;
+  height: 40px;
+  text-align: center;
+  font-size:13px;
+  font-family: arial;
+  border: 0px;
+  background-color: rgb(242,242,242);
+  box-shadow: none;
+  font-weight: bold;
+  color:rgb(117,117,117);
+  border-radius: 2px;
+}
+
+form .button:hover
+{
+  border:1px solid rgb(117,117,117);
+  color:black;
+  box-shadow: 0px 1px 1px rgba(117,117,117,0.5)
+}
+
+form
+{
+  padding-top: 20px;
+}
+
+/*Footer*/
+footer
+{
+  position: absolute;
+  bottom:0px;
+  left:0px;
+  right: 0px;
+  border-top:1px solid rgb(228,228,228);
+  background-color: rgb(242,242,242);
+  height:40px;
+  width: 100%;
+  margin-left:0px;
+  color:grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer a
+{
+  color:rgb(102,102,102);
+}
+
+
+footer .bottom
+{
+  display: flex;
+  flex-direction: row;
+  width:280px;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
