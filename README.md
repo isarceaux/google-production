@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Hello CSS
 
-Things you may want to cover:
+Tu te souviens de ton projet Google ? Voici ta mission : créé une application rails-google qui affiche en page d'accueil ce que tu avais fait lors de ton projet Google. Pas besoin d'y passer trois plombes sur le CSS : on en fera plein la semaine prochaine et là le but de l'exercice est de s'entraîner à push sur Heroku plein de projets différents. Si jamais tu as tout supprimé, tu peux reprendre le CSS d'un autre corsaire. Ne mets pas les images pour le moment.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Une fois que tu as un HTML / CSS de prêt, push le projet sur Heroku.
